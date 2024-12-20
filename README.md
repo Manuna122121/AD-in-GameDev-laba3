@@ -85,7 +85,9 @@ plt.legend()
 plt.title("Модель разброса выстрелов")
 plt.gca().set_aspect('equal', adjustable='box')
 plt.show()
+
 СКО: 2,85 пикселей
+
 ![image](https://github.com/user-attachments/assets/3e054146-10bf-4299-9cd9-155b2739dd93)
 
 Программа для моделирования разброса урона арбалета и ее рузультаты:
