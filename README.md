@@ -91,10 +91,12 @@ plt.show()
 ![image](https://github.com/user-attachments/assets/3e054146-10bf-4299-9cd9-155b2739dd93)
 
 Программа для моделирования разброса урона арбалета и ее рузультаты:
+
 import numpy as np
 import matplotlib.pyplot as plt
 
 Генерация случайных значений урона с нормальным распределением
+
 np.random.seed(123)
 damage = np.random.normal(loc=25, scale=3, size=100)  
 Визуализация гистограммы урона
@@ -111,6 +113,7 @@ plt.show()
 ![image](https://github.com/user-attachments/assets/696cfa85-b5a8-4d3e-934c-ef24b95559b3)
 
 Программа вариативности времени отклика игрока и ее рузультаты:
+
 import numpy as np
 import matplotlib.pyplot as plt
 
