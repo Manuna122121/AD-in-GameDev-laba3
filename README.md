@@ -60,6 +60,7 @@ plt.show()
 ## Задание 2
 ### Анализ вариативности времени поведения игрока
 Программа для моделирования СКО арбалета и ее рузультаты:
+
 import numpy as np
 import matplotlib.pyplot as plt
 np.random.seed(42) 
