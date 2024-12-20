@@ -65,16 +65,12 @@ import matplotlib.pyplot as plt
 
 np.random.seed(42)  # Фиксируем рандом для воспроизводимости
 shots = np.random.normal(loc=0, scale=5, size=(2, 2))  # Отклонения (x, y) из арбалета произведено 2 выстрела
-
-# Вычисляем отклонения (расстояния от центра цели)
+Вычисляем отклонения (расстояния от центра цели)
 distances = np.linalg.norm(shots, axis=1)
-
-# Среднеквадратическое отклонение
+Среднеквадратическое отклонение
 std_dev = np.std(distances)
-
 print(f"СКО отклонений: {std_dev:.2f} пикселей")
-
-# Визуализация попаданий
+Визуализация попаданий
 plt.figure(figsize=(6, 6))
 plt.scatter(shots[:, 0], shots[:, 1], color='red', label='Попадания')
 plt.scatter(0, 0, color='blue', label='Цель', s=100)
@@ -93,11 +89,10 @@ plt.show()
 import numpy as np
 import matplotlib.pyplot as plt
 
-# Генерация случайных значений урона с нормальным распределением
+Генерация случайных значений урона с нормальным распределением
 np.random.seed(123)
 damage = np.random.normal(loc=25, scale=3, size=100)  
-
-# Визуализация гистограммы урона
+Визуализация гистограммы урона
 plt.figure(figsize=(8, 6))
 plt.hist(damage, bins=10, color='purple', alpha=0.7, edgecolor='black')
 plt.axvline(damage.mean(), color='red', linestyle='dashed', linewidth=2, label=f'Среднее: {damage.mean():.2f}')
