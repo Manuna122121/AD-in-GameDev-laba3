@@ -1,5 +1,5 @@
 # AD-in-GameDev-laba3
-# UrFU-AD-in-GameDev-Workshop3
+
 
 ## Отчет по лабораторной работе №3
 
